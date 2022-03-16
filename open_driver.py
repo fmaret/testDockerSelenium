@@ -26,5 +26,5 @@ if __name__ == "__main__":
     driver.get("https://www.lacentrale.fr/")
 
     sleep(10)
-
+    print(driver.current_url)
     driver.quit()
